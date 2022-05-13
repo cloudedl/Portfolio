@@ -1,0 +1,31 @@
+img {
+    position: relative;
+    width: 20rem;
+}
+
+.card {
+    padding: 5px;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+    width: 30rem;
+    text-align: right;
+}
+
+.project {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.project > div {
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    justify-content: center;
+    flex-direction: column;
+}
+/*.project > div > div {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: row;*/
+/*}*/

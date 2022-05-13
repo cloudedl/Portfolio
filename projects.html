@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         body, h1, h2, h3, h4, h5, h6 {
             font-family: "Lato", sans-serif
@@ -19,14 +20,13 @@
     </style>
 </head>
 <body>
-
 <!-- Navbar -->
 <div class="w3-top">
     <div class="w3-bar w3-blue w3-card w3-right-align w3-large">
         <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue"
            href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
                 class="fa fa-bars"></i></a>
-        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
         <a href="Media/CloudResume.pdf" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
            target="_blank">Resume</a>
         <a href="projects.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Projects</a>
@@ -47,48 +47,22 @@
     </div>
 </div>
 
-
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-    <div class="w3-content">
-        <div class="w3-twothird">
-            <h1>Who am I?</h1>
-            <h6 class="w3-padding-32">I've been in the IT industry for the last 8 years. Throughout that time, I was
-                able to provide software, hardware, and networking solutions to thousands of individuals. Now I am
-                shifting to the software development industry. </h6>
-
-            <h6 class="w3-padding-32">I have developed my skills using industry technologies such as HTML5, CSS,
-                Javascript, Bootstrap, React, Python, MongoDB, Python, Django, and PostgreSQL. I have demonstrated these
-                skills in projects utilizing MEN, MERN, and DJANGO stacks. </h6>
-
-            <h6 class="w3-padding-32">I have a passion for people and family.
-                I love breaking problems down to their simpler parts, and
-                I find that the simplest solution, is often the best solution.</h6>
-        </div>
-
-        <div class="w3-third w3-center">
-            <img src="Media/IMG_0522.jpg" style="width: 25rem"
-                 alt="img of a person wearing glasses in front of a picture on the wall">
-        </div>
+<div class="w3-row-padding w3-padding-64 w3-container project">
+    <div class="card">
+        <img src="Media/wizards_quest.png">
+        <p>A Javascript DOM manipulation game where you play as a wizard fighting different types of elementals.  </p>
+    </div>
+    <div class="card">
+        <img src="Media/shoporium.png">
+        <p>A shopping app where you </p>
+    </div>
+    <div class="card">
+        <img src="Media/nutri_cart.png">
+    </div>
+    <div class="card">
+        <img src="Media/tempo_math.png">
     </div>
 </div>
-
-
-<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">
-    <div class="w3-xlarge w3-padding-32">
-        <a href="https://www.linkedin.com/in/edwardcloudonline/">
-            <i class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/edwardcloudonline/"></i>
-        </a>
-        <a href="https://github.com/cloudedl">
-            <i class="fa fa-github w3-hover-opacity"></i>
-        </a>
-    </div>
-    <p>This website was made with W3schools Spaces. Make your own free website today!</p>
-    <a class="w3-button w3-round-xxlarge w3-black w3-margin-bottom" href="https://www.w3schools.com/spaces"
-       target="_blank">Start now</a>
-    <!-- Footer end. -->
-</footer>
 
 <script>
     // Used to toggle the menu on small screens when clicking on the menu button
