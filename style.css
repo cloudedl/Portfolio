@@ -12,12 +12,13 @@ img {
 /*    text-align: right;*/
 /*}*/
 
-/*.project {*/
-/*    min-height: 100%;*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    flex-direction: row;*/
-/*}*/
+.project {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
 /*.project > div {*/
 /*    display: flex;*/
 /*    flex-basis: calc(50% - 40px);*/
